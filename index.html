@@ -5,26 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>After the fall</title>
   <style>
-    body{font-family:Arial,"Microsoft YaHei",sans-serif;max-width:1000px;margin:0 auto;padding:20px}
-    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-    .card{border:1px solid #ddd;border-radius:14px;overflow:hidden}
+    body{font-family:Arial,"Microsoft YaHei",sans-serif;max-width:1000px;margin:0 auto;padding:20px;line-height:1.6}
+    h1{text-align:center;color:#333}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:20px}
+    .card{border:1px solid #ddd;border-radius:14px;overflow:hidden;transition:box-shadow 0.3s}
     .card img{width:100%;height:220px;object-fit:cover;display:block}
-    .card .info{padding:12px}
-    .card h3{margin:0 0 6px 0}
-    .card p{margin:0;color:#555}
-    a{color:inherit;text-decoration:none}
-    a:hover h3{text-decoration:underline}
+    .card .info{padding:12px;background:#f9f9f9}
+    .card h3{margin:0 0 6px 0;font-size:1.1em}
+    .card p{margin:0;color:#555;font-size:0.95em}
+    a{color:inherit;text-decoration:none;display:block}
+    a:hover{box-shadow:0 4px 12px rgba(0,0,0,0.15)}
     @media (max-width:750px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <h1>After the fall</h1>
+  <p style="text-align:center;color:#666">Click on the cover to read the four articles.</p>
 
   <div class="grid">
+    <!-- 文章A -->
     <a class="card" href="articles/a.html">
-      <img src="images/a.png" alt="Cover A">
+      <img src="images/a.png" alt="Eyjafjalla’s Story Cover">
       <div class="info">
         <h3>Eyjafjalla’s Story</h3>
-        <p>Author:Rex</p>
+        <p>Author: Rex</p>
       </div>
     </a>
