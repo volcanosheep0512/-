@@ -5,28 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>After the fall</title>
   <style>
-    body { font-family: Arial, "Microsoft YaHei", sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; }
-    h1 { margin-bottom: 6px; }
-    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 18px; }
-    .card { border: 1px solid #ddd; border-radius: 14px; overflow: hidden; background: #fff; }
-    .card img { width: 100%; height: 220px; object-fit: cover; display: block; }
-    .card .content { padding: 12px 14px 14px; line-height: 1.6; }
-    .meta { color: #666; font-size: 14px; margin-top: 4px; }
-    a { color: inherit; text-decoration: none; }
-    a:hover .title { text-decoration: underline; }
-    @media (max-width: 800px){ .grid{ grid-template-columns: 1fr; } .card img{ height: 200px; } }
+    body{font-family:Arial,"Microsoft YaHei",sans-serif;max-width:1000px;margin:0 auto;padding:20px}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .card{border:1px solid #ddd;border-radius:14px;overflow:hidden}
+    .card img{width:100%;height:220px;object-fit:cover;display:block}
+    .card .info{padding:12px}
+    .card h3{margin:0 0 6px 0}
+    .card p{margin:0;color:#555}
+    a{color:inherit;text-decoration:none}
+    a:hover h3{text-decoration:underline}
+    @media (max-width:750px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <h1>After the fall</h1>
-  <div class="meta">group member:Rex, Victoria, Helen, Eric Zhou</div>
 
   <div class="grid">
-    <a class="card" href="a.html">
-      <img src="img/a-cover.jpg" alt="Eyjafjalla’s Story">
-      <div class="content">
-        <div class="title"><strong>Eyjafjalla’s Story</strong></div>
-        <div class="meta">author：Rex</div>
-        <div>Eyjafjalla’s Story is a bittersweet fantasy about volcanoes, lost family, and the moment a scientist becomes something more—when the mountain returns what it took, and a new destiny ignites in her hands.</div>
+    <a class="card" href="articles/a.html">
+      <img src="images/a.jpg" alt="Cover A">
+      <div class="info">
+        <h3>Eyjafjalla’s Story</h3>
+        <p>Author:Rex</p>
       </div>
     </a>
